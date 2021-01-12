@@ -241,6 +241,13 @@ button {
 
 .header-contact__button {
   padding: 12px 39px;
+  transition: color, background-color, box-shadow, 0.7s ease-in-out;
+}
+
+.header-contact__button:hover {
+  color: white;
+  background-color: #f82370;
+  box-shadow: 3px 3px 6px grey;
 }
 
 .header-contact__button-icon {
@@ -312,6 +319,7 @@ button {
 
 .header-text__button {
   padding: 18px 69px;
+  transition: color, background-color, box-shadow, 0.7s ease-in-out;
 }
 
 .service {
@@ -347,6 +355,7 @@ button {
 .skills__button {
   padding: 19px 57px;
   margin-bottom: 100px;
+  transition: color, background-color, box-shadow, 0.7s ease-in-out;
 }
 
 .my-working {
@@ -359,7 +368,7 @@ button {
 }
 
 .my-working h2 {
-  margin-top: 91px;
+  padding-top: 91px;
   margin-bottom: 100px;
 }
 
@@ -443,6 +452,7 @@ button {
 
 .example__button {
   padding: 17px 63px;
+  transition: color, background-color, box-shadow, 0.7s ease-in-out;
 }
 
 .service-info {
@@ -522,6 +532,13 @@ button {
 .footer-social__button {
   padding: 12px 60px;
   margin-bottom: 31px;
+  transition: color, background-color, box-shadow, 0.7s ease-in-out;
+}
+
+.footer-social__button:hover {
+  color: white;
+  background-color: #f82370;
+  box-shadow: 3px 3px 6px grey;
 }
 
 .footer-social__icon a {
@@ -853,6 +870,14 @@ input.form-user_item {
   outline: none;
   padding: 5px 10px;
   margin: 0 10px;
+}
+
+.header-text__button:hover,
+.skills__button:hover,
+.example__button:hover {
+  color: #ff4e2e;
+  background-color: white;
+  box-shadow: 3px 3px 6px grey;
 }
 
 .exit-nosafe {
@@ -1768,6 +1793,11 @@ input.form-user_item {
     background-color: #ff4e2e;
     border: 1px solid #ff4e2e;
     margin-bottom: 47px;
+  }
+
+  .footer-social__button:hover {
+    color: #ff4e2e;
+    background-color: #fff;
   }
 
   .footer-social__icon {
